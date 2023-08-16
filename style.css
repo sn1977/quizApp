@@ -1,0 +1,47 @@
+body {
+    background-color: #009dff !important;
+
+}
+
+.container {
+    min-height: 100vh;
+    background-color: #009dff !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizCard {
+    width: 30rem;
+}
+
+.quiz-answer-card:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+
+/* funktioniert nicht!!! */
+.bg-success, .bg-danger {
+    color: #ffffff;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
